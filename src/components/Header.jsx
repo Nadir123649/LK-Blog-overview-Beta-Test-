@@ -85,7 +85,7 @@ export default function Header() {
                                     className="flex items-center gap-1 hover:text-[#0DF4C7] transition-colors duration-300 text-base font-[400] leading-[100%] font-dmsans text-white"
                                 >
                                     {icon && icon}
-                                    <span>{label}</span>
+                                    <span className="hover:text-[#0DF4C7] transition-colors duration-300">{label}</span>
                                     {hasDropdown && <MdKeyboardArrowDown size={16} />}
                                 </Link>
                             </li>
