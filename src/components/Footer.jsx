@@ -109,7 +109,7 @@ const Footer = () => {
                 />
 
                 <div className='flex justify-between items-center pt-[18px] border-t-[1px] border-[#868686] border-solid'>
-                    <p className='text-[#F1F1F1] text-[14px] leading-[179%] font-[400] font-dmsans'>
+                    <p className='text-[#F1F1F1] text-[14px] leading-[179%] font-[400] font-dmsans pb-0'>
                         Copyright 2025. L&Kdevelopment, All Right Reserved
                     </p>
 
