@@ -1,0 +1,87 @@
+import { BlogFive, BlogFour, BlogOne, BlogSix, BlogThree, BlogTwo } from "@/utils";
+
+export const categories = [
+    "All",
+    "Apps",
+    "Drupal",
+    "Laravel",
+    "Wordpress",
+    "E-Commerce",
+    "PHP",
+    "React",
+];
+
+export const blogsData = [
+    {
+        id: 1,
+        image: BlogOne,
+        author: "Clara Wilson",
+        date: "Feb 29, 2025",
+        title: "Warum Drupal die beste Wahl für komplexe Webprojekte ist",
+        link: "/blog/drupal-komplexe-webprojekte",
+    },
+    {
+        id: 2,
+        image: BlogTwo,
+        author: "Clara Wilson",
+        date: "Feb 29, 2025",
+        title: "Drupal cms: moderne ki-features für effiziente webseitenerstellung",
+        link: "/blog/drupal-ki-features",
+    },
+    {
+        id: 3,
+        image: BlogThree,
+        author: "Clara Wilson",
+        date: "Feb 29, 2025",
+        title: "Warum Drupal die beste Wahl für komplexe Webprojekte ist",
+        link: "/blog/drupal-update-wartung",
+    },
+    {
+        id: 4,
+        image: BlogFour,
+        author: "Clara Wilson",
+        date: "Feb 29, 2025",
+        title: "Drupal 11 ist hier – Was man jetzt tun sollte Drupal 11 ist hier ",
+        link: "/blog/drupal-11",
+    },
+    {
+        id: 5,
+        image: BlogFive,
+        author: "Clara Wilson",
+        date: "Feb 29, 2025",
+        title: "Website-Baukasten, WordPress und Drupal im Vergleich",
+        link: "/blog/drupal-ki-features",
+    },
+    {
+        id: 6,
+        image: BlogSix,
+        author: "Clara Wilson",
+        date: "Feb 29, 2025",
+        title: "Drupal Checkliste - Was sollte man vor der Veröffentlichung nicht vergessen?",
+        link: "/blog/drupal-update-wartung",
+    },
+    {
+        id: 7,
+        image: BlogFour,
+        author: "Clara Wilson",
+        date: "Feb 29, 2025",
+        title: "Drupal 11 ist hier – Was man jetzt tun sollte Drupal 11 ist hier ",
+        link: "/blog/drupal-11",
+    },
+    {
+        id: 8,
+        image: BlogFive,
+        author: "Clara Wilson",
+        date: "Feb 29, 2025",
+        title: "Website-Baukasten, WordPress und Drupal im Vergleich",
+        link: "/blog/drupal-update-wartung",
+    },
+    {
+        id: 9,
+        image: BlogSix,
+        author: "Clara Wilson",
+        date: "Feb 29, 2025",
+        title: "Drupal Checkliste - Was sollte man vor der Veröffentlichung nicht vergessen?",
+        link: "/blog/drupal-11",
+    },
+];
